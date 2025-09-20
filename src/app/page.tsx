@@ -7,7 +7,7 @@ const Home = () => {
   }
   return (
     <div className="text-center mt-5">
-      <h1>Hello, Next.js 14 with Bootstrap and Ant Design!</h1>
+      <h1>Hello, Next.js 14 and Ant Design!</h1>
       <AntButton type="primary" className="m-2" onClick={handleAntButton}>
         Ant Design Button
       </AntButton>
