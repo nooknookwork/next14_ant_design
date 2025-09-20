@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Next.js 14 + Ant Design + TypeScript Starter
 
-## Getting Started
+โครงสร้างโปรเจคนี้ถูกสร้างขึ้นเพื่อเป็น **Starter Template** สำหรับการพัฒนาเว็บแอปพลิเคชันที่ทันสมัย โดยใช้  
+- **Next.js 14** (App Router)  
+- **React 18**  
+- **Ant Design 5** (UI Library)  
+- **TypeScript**  
 
-First, run the development server:
+เหมาะสำหรับการสร้าง **Dashboard, Enterprise App, Web Application** ที่ต้องการความเร็วในการพัฒนาและโค้ดที่อ่านง่าย
 
+---
+
+## 📦 Tech Stack
+
+- [Next.js 14](https://nextjs.org/) - React Framework รองรับ SSR, SSG, ISR
+- [React 18](https://react.dev/) - JavaScript UI Library
+- [Ant Design 5](https://ant.design/) - Enterprise UI Component Library
+- [TypeScript](https://www.typescriptlang.org/) - Superset ของ JavaScript ที่เพิ่ม static typing
+- [ESLint](https://eslint.org/) - Linter สำหรับโค้ด
+- [Husky](https://typicode.github.io/husky/) - จัดการ Git hooks
+
+---
+
+## ⚙️ Setup & Scripts
+
+### 1. ติดตั้ง Node.js (แนะนำ 19+)
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+brew install nvm
+nvm install 19
+nvm use 19
+2. ติดตั้ง pnpm (global)
+bash
+คัดลอกโค้ด
+npm install -g pnpm
+3. คำสั่งสำหรับรันโปรเจค
+bash
+คัดลอกโค้ด
+# ติดตั้ง dependencies
+pnpm install
+
+# รัน development server (http://localhost:3006)
 pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# สร้าง build สำหรับ production
+pnpm build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# รัน production server
+pnpm start
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# ตรวจสอบ lint
+pnpm lint
+yaml
+คัดลอกโค้ด
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+ถ้าจะทำให้ README ดู **portfolio-friendly** มากขึ้น หนูแนะนำเพิ่มส่วนพวกนี้:  
+- 📂 **Project Structure** (โครงสร้างไฟล์หลัก ๆ)  
+- 🎨 **UI Demo Screenshot** (รูปหน้าจอจาก AntD UI ที่ใช้ในโปรเจค)  
+- 🤝 **Author / Contact** (GitHub / LinkedIn / Website)  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
