@@ -54,9 +54,3 @@ yaml
 
 ---
 
-ถ้าจะทำให้ README ดู **portfolio-friendly** มากขึ้น หนูแนะนำเพิ่มส่วนพวกนี้:  
-- 📂 **Project Structure** (โครงสร้างไฟล์หลัก ๆ)  
-- 🎨 **UI Demo Screenshot** (รูปหน้าจอจาก AntD UI ที่ใช้ในโปรเจค)  
-- 🤝 **Author / Contact** (GitHub / LinkedIn / Website)  
-
----
